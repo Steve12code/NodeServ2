@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	#wrapper
+		#logo
+			img(src='/images/logo.png')
+		#display
+			include links
+			h1= title
+			p Hello, World! Welcome to #{title}
+
+		include footer
